@@ -95,6 +95,8 @@ function detectTitleFromHeaders(headerLine: string): string {
   if (h.includes("network")) return "Networks";
   if (h.includes("advertiser name")) return "Auction insights";
   if (h.startsWith("device,")) return "Device performance";
+  if (h.startsWith("gender,age")) return "Demographics gender age";
+  if (h.startsWith("gender,")) return "Demographics gender";
   if (h.includes("campaign name") && h.includes("comparison")) return "Biggest changes";
   if (h.includes("audience segment")) return "Audience performance";
   if (h.includes("hour of day")) return "Hourly performance";
@@ -142,6 +144,8 @@ export function detectReportType(title: string): string {
   if (t.includes("search keyword") || t.includes("search keywords")) return "keyword";
   if (t.includes("searches search")) return "search-query";
   if (t.includes("searches word") || t.includes("search word")) return "search-term";
+  if (t.includes("demographics gender age")) return "audience-gender-age";
+  if (t.includes("demographics gender")) return "audience-gender";
   if (t.includes("biggest change")) return "period-comparison";
   if (t.includes("network")) return "network";
   if (t.includes("auction")) return "competitor";

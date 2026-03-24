@@ -200,6 +200,27 @@ function generateSearchTermContent(record: NormalizedRecord): string {
   return parts.join(" ");
 }
 
+function generateDemographicContent(record: NormalizedRecord): string {
+  const p = record.parsed;
+  const gender = p.gender || "Unknown";
+  const ageRange = p.ageRange as string | null;
+
+  const label = ageRange ? `${gender}, ${ageRange}` : gender;
+
+  const parts = [
+    `${record.clientId} demographic: ${label}.`,
+    `Period: ${record.dateStart} to ${record.dateEnd}.`,
+  ];
+
+  if (p.impressions != null) parts.push(`${fmtNum(p.impressions as number)} impressions.`);
+  if (p.pctOfTotal != null) parts.push(`${fmtPct(p.pctOfTotal as number)} of known total.`);
+  if (p.clicks != null) parts.push(`${fmtNum(p.clicks as number)} clicks.`);
+  if (p.cost != null) parts.push(`Spend: ${fmtCurrency(p.cost as number)}.`);
+  if (p.conversions != null) parts.push(`${fmtNum(p.conversions as number)} conversions.`);
+
+  return parts.join(" ");
+}
+
 function generateSearchQueryContent(record: NormalizedRecord): string {
   const p = record.parsed;
   const query = p.searchQuery || "Unknown";
@@ -270,6 +291,8 @@ function generateContent(record: NormalizedRecord): string {
     case "search-term": return generateSearchTermContent(record);
     case "search-query": return generateSearchQueryContent(record);
     case "period-comparison": return generatePeriodComparisonContent(record);
+    case "audience-gender": return generateDemographicContent(record);
+    case "audience-gender-age": return generateDemographicContent(record);
     default: return generateGenericContent(record);
   }
 }
@@ -337,6 +360,8 @@ function buildTags(record: NormalizedRecord, insights: string[]): string[] {
   if (p.searchWord) tags.push(`search-word:${String(p.searchWord).toLowerCase()}`);
   if (p.advertiserName) tags.push(`advertiser:${String(p.advertiserName).toLowerCase()}`);
   if (p.matchType) tags.push(`match-type:${String(p.matchType).toLowerCase()}`);
+  if (p.gender) tags.push(`gender:${String(p.gender).toLowerCase()}`);
+  if (p.ageRange) tags.push(`age:${String(p.ageRange).toLowerCase()}`);
 
   // Period tags
   if (record.dateStart && record.dateStart !== "unknown") {
@@ -399,6 +424,8 @@ function buildDedupeKey(record: NormalizedRecord): string {
     p.searchWord || "",
     p.searchQuery || "",
     p.advertiserName || "",
+    p.gender || "",
+    p.ageRange || "",
   ].join(":");
 
   return createHash("sha256").update(parts).digest("hex").slice(0, 16);

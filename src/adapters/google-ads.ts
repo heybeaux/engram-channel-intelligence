@@ -65,6 +65,11 @@ const COLUMN_MAP: Record<string, string> = {
   "Search": "searchQuery",
   "Top Containing Queries": "topQueries",
 
+  // Demographics
+  "Gender": "gender",
+  "Age Range": "ageRange",
+  "Percent of known total": "pctOfTotal",
+
   // Period Comparison (Biggest Changes)
   "Campaign Name": "campaignName",
   "Cost (Comparison)": "costComparison",
@@ -106,7 +111,7 @@ const PCT_FIELDS = new Set([
   "overlapRate", "overlapRateComp", "outrankingShare", "outrankingShareComp",
   "positionAboveRate", "positionAboveRateComp",
   "topOfPageRate", "topOfPageRateComp",
-  "absTopImprShare", "topImprShare",
+  "absTopImprShare", "topImprShare", "pctOfTotal",
 ]);
 
 // Fields that should be parsed as numbers
@@ -142,7 +147,7 @@ function normalizeRow(
 
 function hasActivity(parsed: Record<string, number | string | boolean | null>, recordType: string): boolean {
   // These record types are always relevant
-  if (["competitor", "network", "search-term", "search-query", "period-comparison"].includes(recordType)) return true;
+  if (["competitor", "network", "search-term", "search-query", "period-comparison", "audience-gender", "audience-gender-age"].includes(recordType)) return true;
 
   const clicks = parsed.clicks as number | null;
   const impressions = parsed.impressions as number | null;
