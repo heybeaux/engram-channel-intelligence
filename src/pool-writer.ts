@@ -163,3 +163,43 @@ export async function writeMemories(
 
   return { written, errors };
 }
+
+/**
+ * Recall memories with ENG-42 tag-based filtering.
+ * Uses filter.tags with AND logic — all specified tags must match.
+ *
+ * Example:
+ *   recallMemories("best campaign", ["client:map-international", "channel:google-ads"], opts)
+ */
+export async function recallMemories(
+  query: string,
+  tags: string[],
+  opts: PoolWriterOptions,
+  limit: number = 10,
+): Promise<any[]> {
+  try {
+    const res = await fetch(`${opts.engramUrl}/v1/memories/recall`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-AM-API-Key": opts.engramApiKey,
+        "X-AM-User-ID": opts.userId,
+      },
+      body: JSON.stringify({
+        query,
+        limit,
+        filter: { tags },
+      }),
+    });
+
+    if (!res.ok) return [];
+
+    const data = await res.json() as { memories?: any[] };
+    return (data.memories || []).map((m: any) => ({
+      ...m,
+      content: m.raw || m.content || '',
+    }));
+  } catch {
+    return [];
+  }
+}
