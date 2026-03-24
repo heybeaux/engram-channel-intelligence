@@ -1,0 +1,73 @@
+Ad group performance
+"February 7, 2026 - March 6, 2026"
+Ad group,Campaign,Campaign state,Ad group state,Campaign type,Campaign subtype,Labels on Ad group,Ad group bid strategy,Ad group bid strategy type,Ad group sitelinks: active,Ad group sitelinks: disapproved,Ad group sitelinks level,Ad group phone numbers: active,Ad group phone numbers: disapproved,Ad group phone numbers level,Ad group apps: active,Ad group apps: disapproved,Ad group apps level,Ad group desktop bid adj.,Ad group mobile bid adj.,Ad group tablet bid adj.,Ads: active,Ads: disapproved,Keywords: active,Keywords: disapproved,Clicks,Impr.,CTR,Currency code,Avg. CPC,Cost,Impr. (Abs. Top) %,Impr. (Top) %,Conversions,View-through conv.,Cost / conv.,Conv. rate
+Branded Exact,ST_PD_S_MI_Brand,Paused,Enabled,Search,All features, --, --,Maximize Conversion Value,0,0, --,0,0, --,0,0, --, --, --, --,1,0,6,0,191,556,34.35%,USD,3.37,642.87,75.67%,87.97%,166.87,0,3.85,87.37%
+Ad group 1,ST_PD_YT_ST5_MAP 2026 Video,Paused,Enabled,Demand Gen,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,1,0,101,"16,772",0.60%,USD,13.34,1347.42,0,0,8.00,1,168.43,0.11%
+Intent - Mobile,Intent - Mobile,Paused,Enabled,Display,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --,-100%, +0%,-100%,3,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Site RT - Desktop,Site RT - Desktop,Paused,Enabled,Display,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --,-100%, --,12,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+ST_PD_Display_Gift,ST_PD_Display_MI_Gift2025,Paused,Paused,Display,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --,-100%, +0%,-100%,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Intent - Desktop,Intent - Desktop,Paused,Enabled,Display,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --,-100%,-75%,12,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Health,MAP - Search,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,3,0,18,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Humanitarian,MAP - Search,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,3,0,12,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Children,MAP - Search,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,3,0,20,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Christian,MAP - Search,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,3,0,11,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Pandemic,MAP - Search,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,3,0,60,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Best,MAP - Search,Paused,Paused,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Medical,MAP - Search,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,3,0,29,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Humanitarian,Category,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,6,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Health,Category,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,10,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Medical,Category,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,2,0,20,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Children,Category,Paused,Paused,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Brand,Brand,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,11,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Ukraine,Ukraine,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,3,0,5,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Humanitarian,Donate,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,8,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Medical,Donate,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,13,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Health,Donate,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,8,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Children,Donate,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,8,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Year End,Year End / Giving Tuesday - 2022,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,13,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Giving Tuesday,Year End / Giving Tuesday - 2022,Paused,Paused,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Earthquake Relief,Earthquake Relief,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,28,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Spring Match,Spring Match - 2023,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,2,0,18,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Wildfires,Maui Wildfires - Search,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,2,0,26,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Middle East,Middle East - 2023,Paused,Enabled,Search,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,2,0,50,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Giving Tuesday,Year End - 2023,Paused,Removed,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Year End,Year End - 2023,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,2,0,25,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Giving Tuesday 2023,Year End - 2023,Paused,Paused,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Giving Tuesday,Giving Tuesday - 2023,Paused,Enabled,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,2,0,19,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Year End,Giving Tuesday - 2023,Paused,Paused,Search,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Branded Phrase,ST_PD_S_MI_Brand,Paused,Paused,Search,All features, --, --,Maximize Conversion Value,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Health,Charity Intent Donations,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,2,0,5,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Medical Charities,Charity Intent Donations,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,2,0,16,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Competitors,cBC - Competitors,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --,-30%, --,2,0,16,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Map.org.uk - Competitors,cBC - Competitors,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --,-30%, --,2,0,4,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Haiti Relief,cBC - Disaster Relief,Paused,Paused,Search,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Disaster Relief,cBC - Disaster Relief,Paused,Enabled,Search,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,9,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Humanitarian,cBC - Disaster Relief,Paused,Enabled,Search,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,4,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Medical Relief,cBC - Disaster Relief,Paused,Enabled,Search,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,4,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Helene Hurricane Relief,cBC - Disaster Relief,Paused,Paused,Search,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --,-30%, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Remarketing Audiences,Spring Match 2024,Paused,Enabled,Search,All features, --, --,Maximize Conversion Value,0,0, --,0,0, --,0,0, --, --, --, --,1,0,47,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+In Market Audiences,Spring Match 2024,Paused,Enabled,Search,All features, --, --,Maximize Conversion Value,0,0, --,0,0, --,0,0, --, --, --, --,1,0,36,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Cold Audiences,cBC - Display - Hurricane Helene Donations,Paused,Enabled,Display,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Cold Audiences,cBC - Display - Hurricane Helene Donations Remarketing,Paused,Enabled,Display,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, --, --,1,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Cold Audiences,cBC - Display - Hurricane Helene Donations #3,Removed,Enabled,Display,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Cold Audiences,cBC - Display - YE Prewire 2024,Paused,Enabled,Display,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,2,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Topic,cBC - Display - YE Prewire 2024,Paused,Enabled,Display,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,2,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Cold Audience,cBC - Display - YE prewire 2024.,Paused,Paused,Display,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Topic Targeting,cBC - Display - YE prewire 2024.,Paused,Enabled,Display,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Remarketing,cBC - YouTube - GivingTuesday Donations 2024,Removed,Enabled,Video,Website conversions, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Ad group 1,cBC - Display - YE Donations 2024,Paused,Enabled,Display,All features, --, --,Target CPA,0,0, --,0,0, --,0,0, --, --, --, --,1,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Giving Tuesday 2024,GivingTuesday 2024,Paused,Enabled,Search,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,17,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Remarketing,cBC - YouTube - YE Donations 2024,Removed,Enabled,Video,Website conversions, --, --,Target CPA,0,0, --,0,0, --,0,0, --, --, --, --,1,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Year End 2024,Year End - 2024,Paused,Enabled,Search,All features, --,YE - TARGET CPA $50,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,28,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Year End 2024,Year End - 2024 - Target Audiences,Paused,Enabled,Search,All features, --, --,Manual CPC,0,0, --,0,0, --,0,0, --, --, --, --,1,0,28,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Ad group 1,cBC - Display - Spring Match Donations 2025,Paused,Enabled,Display,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Cold Audiences,cBC - Demand Gen - Awareness Traffic,Paused,Enabled,Demand Gen,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,1,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Competitors,cBC - Competitors - Target Audiences,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --,-30%, --,1,0,16,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Map.org.uk - Competitors,cBC - Competitors - Target Audiences,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --,-30%, --,1,0,4,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Medical Charities,cBC - Donation - Target Audiences,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,2,0,34,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Health,cBC - Donation - Target Audiences,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,2,0,10,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Disaster Relief Donation,cBC - Donation - Target Audiences,Paused,Enabled,Search,All features, --,Maximize Conversions,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,2,0,16,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Postal_chase_25,ST_PD_Display_MI_Postal2025,Paused,Enabled,Display,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --, --, +0%, --,2,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Brand_2025,ST_PD_Display_MI_Brand2025,Paused,Enabled,Display,All features, --, --,Maximize clicks,0,0, --,0,0, --,0,0, --,-100%, +0%,-100%,0,0,0,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Ad group 1,Brand_YT,Paused,Enabled,Demand Gen,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,1,0,1,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
+Ad group 1,YE Final Push,Paused,Enabled,Search,All features, --, --,Maximize Conversions,0,0, --,0,0, --,0,0, --, --, --, --,3,0,5,0,0,0,0,USD,0,0.00,0,0,0.00,0,0,0
