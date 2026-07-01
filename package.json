@@ -1,8 +1,8 @@
 {
-  "name": "engram-channel-intelligence",
+  "name": "@openengram/channel-intelligence",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
+  "description": "Channel intelligence ingestion CLI and library for writing marketing/channel data into Engram memory pools.",
+  "type": "commonjs",
   "main": "dist/index.js",
   "bin": {
     "engram-ci": "./dist/cli.js"
@@ -13,10 +13,18 @@
     "start": "node dist/cli.js",
     "test": "tsx src/test.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "engram",
+    "openengram",
+    "memory",
+    "ai-agents",
+    "google-ads",
+    "channel-intelligence",
+    "marketing-analytics",
+    "cli"
+  ],
+  "author": "Beaux Walton",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "csv-parse": "^6.2.1",
     "zod": "^4.3.6"
@@ -25,5 +33,21 @@
     "@types/node": "^25.5.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heybeaux/engram-channel-intelligence.git"
+  },
+  "homepage": "https://github.com/heybeaux/engram-channel-intelligence#readme",
+  "bugs": {
+    "url": "https://github.com/heybeaux/engram-channel-intelligence/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "PHASE1-TEST-REPORT.md"
+  ]
 }
